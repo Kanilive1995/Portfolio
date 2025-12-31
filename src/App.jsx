@@ -1,7 +1,7 @@
 import './App.css';
 import Email from './assets/images/Email.jpeg';
 import LinkedIn from './assets/images/LinkedIn.jpeg';
-import updatedheadshot from './assets/images/updatedheadshot.jpeg';
+import updatedHeadshot from './assets/images/updatedHeadshot.jpeg';
 import Dashboard from './assets/images/Dashboard.jpeg';
 import linuxInstalled from './assets/images/linuxInstalled.jpeg';
 
@@ -13,7 +13,7 @@ function App() {
         <h1>
           Kani <span>Moore-Singleton</span>
         </h1>
-        <img src={updatedheadshot} alt="Headshot" className="Headshot" />
+        <img src={updatedHeadshot} alt="Headshot" className="Headshot" />
         <p>
           IT professional focused on Software/Application Development, Systems, and Security.
         </p>
@@ -30,40 +30,27 @@ function App() {
       {/* SKILLS */}
       <section className="skills">
         <h2>Skills</h2>
-
         <div className="skill">
           <p>JavaScript</p>
-          <div className="bar">
-            <div style={{ width: '85%' }} />
-          </div>
+          <div className="bar"><div style={{ width: '85%' }} /></div>
         </div>
-
         <div className="skill">
           <p>Python</p>
-          <div className="bar">
-            <div style={{ width: '80%' }} />
-          </div>
+          <div className="bar"><div style={{ width: '80%' }} /></div>
         </div>
-
         <div className="skill">
           <p>Linux</p>
-          <div className="bar">
-            <div style={{ width: '70%' }} />
-          </div>
+          <div className="bar"><div style={{ width: '70%' }} /></div>
         </div>
-
         <div className="skill">
           <p>Splunk / SIEM</p>
-          <div className="bar">
-            <div style={{ width: '75%' }} />
-          </div>
+          <div className="bar"><div style={{ width: '75%' }} /></div>
         </div>
       </section>
 
       {/* PROJECTS */}
       <section className="projects" id="projects">
         <h2>Projects</h2>
-
         <div className="grid">
           <div className="project-card">
             <img src={Dashboard} alt="Splunk Dashboard" />
@@ -92,7 +79,7 @@ function App() {
         </p>
         <p>
           <img src={LinkedIn} alt="LinkedIn" className="linkedin-logo" /> 
-          <a href="https://www.linkedin.com/in/kani-moore-singleton-883730137/"> Kani Moore-Singleton</a>
+          <a href="https://www.linkedin.com/in/kani-moore-singleton-883730137/">Kani Moore-Singleton</a>
         </p>
       </section>
     </>
