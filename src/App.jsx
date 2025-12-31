@@ -3,7 +3,7 @@ import Email from './assets/images/Email.jpeg';
 import LinkedIn from './assets/images/LinkedIn.jpeg';
 import updatedheadshot from './assets/images/updatedheadshot.jpeg';
 import Dashboard from './assets/images/Dashboard.jpeg';
-import LinuxInstalled from './assets/images/Linux Installed.jpeg';
+import linuxInstalled from './assets/images/linuxInstalled.jpeg';
 
 function App() {
   return (
@@ -74,7 +74,7 @@ function App() {
           </div>
 
           <div className="project-card">
-            <img src={LinuxInstalled} alt="Kali Linux" />
+            <img src={linuxInstalled} alt="Kali Linux" />
             <div className="overlay">
               <h3>Kali Linux Lab</h3>
               <p>UTM virtual lab on Apple Silicon</p>
