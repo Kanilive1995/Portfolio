@@ -1,6 +1,6 @@
 import './App.css';
 import email from './assets/images/email.jpeg';
-import linkedin from './assets/images/linkedin.jpeg';
+import linkedinlogo from './assets/images/linkedinlogo.jpeg';
 import updatedHeadshot from './assets/images/updatedheadshot.jpeg';
 import dashboard from './assets/images/dashboard.jpeg';
 import linuxinstalled from './assets/images/linuxinstalled.jpeg';
@@ -86,7 +86,7 @@ function App() {
           <a href="mailto:Ladavemoore@gmail.com"> Ladavemoore@gmail.com</a>
         </p>
         <p>
-          <img src={linkedin} alt="LinkedIn" className="linkedin-logo" /> 
+          <img src={linkedinlogo} alt="LinkedIn" className="linkedin-logo" /> 
           <a href="https://www.linkedin.com/in/kani-moore-singleton-883730137/"> Kani Moore-Singleton</a>
         </p>
       </section>
