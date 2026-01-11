@@ -57,8 +57,11 @@ function App() {
             <div className="overlay">
               <h3>Splunk Dashboard</h3>
               <p>Firewall & network traffic monitoring</p> 
-              <p> I design and built a custom Splunk dashboard demonstrating network traffic analysis by visualizing total connections, allowed connections, 
-                and blocked connections. This dashboard was created for to showcase proficiency in Splunk, SPL, and basic cybersecurity analysis.
+              <p>Installed and started Splunk services via the command line,
+                then I created a custom firewall log data and ingested it into Splunk.
+                I then created SPL queries to accurately track total, allowed, and blocked connections.
+                This project reflects real, hands-on experience with SIEM setup, log ingestion, SPL, 
+                and security-focused dashboard design—not just theory. 
               </p>
             </div>
           </div>
@@ -66,12 +69,14 @@ function App() {
           <div className="project-card">
             <img src={linuxinstalled} alt="Kali Linux" />
             <div className="overlay">
-              <h3>Kali Linux Lab</h3>
+              <h3>Kali Linux Installation</h3>
               <p>Kali Linux VM Setup on Mac using UTM</p>
-              <p> I successfully configured and launched Kali Linux virtual machine on a Mac environment using UTM. 
-                  This involved installing and integrating essential Linux tools, configuring display and system settings for optimal usability, 
-                  and familiarizing myself with the Linux command line interface. This setup provided a secure, isolated environment for 
-                  learning and practicing cybersecurity tools such as Nmap, Burp Suite, and Wireshark, laying the foundation for hands-on security testing and analysis.
+              <p>Installed UTM for virtualization on macOS (Apple Silicon)
+                  Downloaded the official Kali Linux ARM64 installer
+                  Created a VM with 6GB RAM, 64GB disk, default CPU cores, and enabled Apple Virtualization
+                  Installed Kali using the Graphical Installer, configured hostname and user account
+                  Set up the XFCE desktop environment to boot automatically into a GUI
+                  Verified system functionality, updated packages, and prepared the VM for labs
               </p>
             </div>
           </div>
