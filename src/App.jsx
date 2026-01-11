@@ -72,11 +72,11 @@ function App() {
               <h3>Kali Linux Installation</h3>
               <p>Kali Linux VM Setup on Mac using UTM</p>
               <p>Installed UTM for virtualization on macOS (Apple Silicon)
-                  Downloaded the official Kali Linux ARM64 installer
-                  Created a VM with 6GB RAM, 64GB disk, default CPU cores, and enabled Apple Virtualization
-                  Installed Kali using the Graphical Installer, configured hostname and user account
-                  Set up the XFCE desktop environment to boot automatically into a GUI
-                  Verified system functionality, updated packages, and prepared the VM for labs
+                Downloaded the official Kali Linux ARM64 installer
+                Created a VM with 6GB RAM, 64GB disk, default CPU cores, and enabled Apple Virtualization
+                Installed Kali using the Graphical Installer, configured hostname and user account
+                Set up the XFCE desktop environment to boot automatically into a GUI
+                Verified system functionality, updated packages, and prepared the VM for labs
               </p>
             </div>
           </div>
