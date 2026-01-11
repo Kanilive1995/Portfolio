@@ -35,7 +35,7 @@ function App() {
           <div className="bar"><div style={{ width: '90%' }} /></div>
         </div>
         <div className="skill">
-          <p>Python</p>
+          <p>Splunk / SIEM Tools</p>
           <div className="bar"><div style={{ width: '70%' }} /></div>
         </div>
         <div className="skill">
@@ -43,7 +43,7 @@ function App() {
           <div className="bar"><div style={{ width: '70%' }} /></div>
         </div>
         <div className="skill">
-          <p>Splunk / SIEM Tools</p>
+          <p>Version Control/Dev Ops</p>
           <div className="bar"><div style={{ width: '85%' }} /></div>
         </div>
       </section>
