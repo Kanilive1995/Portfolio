@@ -43,7 +43,7 @@ function App() {
           <div className="bar"><div style={{ width: '70%' }} /></div>
         </div>
         <div className="skill">
-          <p>Splunk / SIEM</p>
+          <p>Splunk / SIEM Tools</p>
           <div className="bar"><div style={{ width: '85%' }} /></div>
         </div>
       </section>
