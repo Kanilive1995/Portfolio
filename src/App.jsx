@@ -6,6 +6,11 @@ import dashboard from './assets/images/dashboard.jpeg';
 import linuxinstalled from './assets/images/linuxinstalled.jpeg';
 import gitactions from './assets/images/gitactions.jpeg';
 import githublogo from './assets/images/githublogo.jpeg';
+import vslogo from './assets/images/vslogo.jpeg';
+import figma from './assets/images/figma.jpeg';
+import utm from './assets/images/utm.jpeg';
+import kali from './assets/images/kali.jpeg';
+import splunklogo from './assets/images/splunklogo.jpeg';
 
 function App() {
   return (
@@ -28,6 +33,19 @@ function App() {
           <a href="#contact" className="secondary">Contact Me</a>
         </div>
       </section>
+
+        {/* Tools Used */}
+      <section className="tools-used">
+        <h2>Tools Used </h2>
+        <ul>
+          <li> <img src={vslogo} alt="Visual Studio Code" /></li>
+          <li> <img src={githublogo} alt="GitHub" /></li>
+          <li> <img src={figma} alt="Figma" /></li>
+          <li> <img src={utm} alt="UTM" /></li>
+          <li> <img src={kali} alt="Kali Linux" /></li>
+          <li> <img src={splunklogo} alt="Splunk" /></li>
+        </ul>
+      </section> 
 
       {/* SKILLS */}
       <section className="skills">
