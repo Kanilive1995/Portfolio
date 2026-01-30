@@ -8,9 +8,11 @@ import gitactions from './assets/images/gitactions.jpeg';
 import githublogo from './assets/images/githublogo.jpeg';
 import vslogo from './assets/images/vslogo.jpeg';
 import figma from './assets/images/figma.jpeg';
-import utm from './assets/images/utm.jpeg';
+import python from './assets/images/python.jpeg';
 import kali from './assets/images/kali.jpeg';
+import githubcontact from './assets/images/githubcontact.jpeg';
 import splunklogo from './assets/images/splunklogo.jpeg';
+import javascriptlogo from './assets/images/javascriptlogo.jpeg';
 
 function App() {
   return (
@@ -38,10 +40,11 @@ function App() {
       <section className="tools-used">
         <h2>Tools Used </h2>
         <ul>
+          <li><img src={javascriptlogo} alt="JS Logo" /></li>
           <li> <img src={vslogo} alt="Visual Studio Code" /></li>
           <li> <img src={githublogo} alt="GitHub" /></li>
           <li> <img src={figma} alt="Figma" /></li>
-          <li> <img src={utm} alt="UTM" /></li>
+          <li> <img src={python} alt="Python logo" /></li>
           <li> <img src={kali} alt="Kali Linux" /></li>
           <li> <img src={splunklogo} alt="Splunk" /></li>
         </ul>
@@ -128,7 +131,7 @@ function App() {
           <a href="https://www.linkedin.com/in/kani-moore-singleton-883730137/"> Kani Moore-Singleton</a>
         </p>
         <p>
-          <img src={githublogo} alt="GitHub" className="github-logo" /> 
+          <img src={githubcontact} alt="GitHub" className="github-logo" /> 
           <a href="https://github.com/Kanilive1995"> Kani's Repositories</a>
         </p>
       </section>
